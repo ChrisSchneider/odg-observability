@@ -8,11 +8,11 @@ resources:
       imageReference: quay.io/prometheus-operator/prometheus-operator:v0.94.1
     relation: external
   - name: prometheus
-    version: v3.13.4
+    version: v3.15.0
     type: ociImage
     access:
       type: ociRegistry
-      imageReference: docker.io/prom/prometheus:v3.13.4-distroless
+      imageReference: docker.io/prom/prometheus:v3.15.0-distroless
     relation: external
   - name: prometheus-config-reloader
     version: v0.94.1
